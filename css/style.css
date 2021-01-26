@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/***********
+font-family: 'Poppins', sans-serif;
+
+************/
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,a,input,p{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+/**********
+header part css starts here
+
+**********/
+header{
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	padding: 12px 0px;
+}
+
+.nav-item{
+	margin: 0px 25px;
+}
+.nav-link{
+	font-size: 20px;
+	color: #fff !important;
+}
+.input-group{
+	margin-left: 25px;
+}
+
+.form-control {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff !important;
+    background-color: #fcc302 !important;
+    border: none !important;
+    border-radius: none !important;
+
+}
+.input-group input::placeholder{
+	color: #fff;
+}
+.input-group-text {
+    padding: .375rem 1rem !important;
+    color: #fff !important;
+    background-color: #00bec9 !important;
+    border: none !important;
+    border-radius:none !important;
+}
+
+.input-group-text a i{
+	color: #fff;
+
+}
+
+.input-group {
+	box-shadow: 10px 9px 10px 3px rgba(0,0,0,0.1)
+}
+
+   
+
+
+/***********
+banner part css starts here
+***********/
+.banner{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 120px 0px;
+}
+.banner h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-top: 85px;
+}
+
+.banner p{
+	font-size: 26px;
+	color: #fff;
+	margin: 30px 0px;
+}
+
+.banner .btn-primary {
+    color: #fff;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+}
+
+/******************
+service part css starts here
+
+******************/
+.service-1{
+	padding: 80px 0px;
+	width: 100%;
+}
+
+.service-1 h1{
+    font-size: 40px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 85px;
+}
+
+
+.service-1 p{
+	font-size: 26px;
+	color: #000;
+	margin: 30px 0px;
+}
+
+.service-vdo{
+	position: relative;
+	z-index: 1;
+}
+.shadow{
+	position: absolute;
+	background: rgba(252,195,2,0.6);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.box{
+	width: 150px;
+	height: 150px;
+	background-color:#fcc302;
+	position: absolute; 
+	z-index: -1;
+	bottom: -25px;
+	left: -30px;
+}
+
+.btn-danger{
+	background-color:#fcc302 !important;
+	border: none !important;
+
+}
+
+/******************
+topic section css starts here
+
+******************/
+.topic{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #fcc302;
+	text-align: center;
+}
+
+.topic h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.topic p{
+	font-size: 26px;
+	color: #fff;
+	margin-top: 20px;
+
+}
+.topic-2{
+	width: 100%;
+	margin-top: 70px;
+}
+.topic-2 h3{
+	color: #fff;
+	margin-top: 40px;
+}
+.topic-2 p{
+	color: #fff;
+	margin-top: 20px;
+	font-size: 18px;
+	padding: 0px 40px;
+}
+
+/******************
+
+service-2 part css starts here
+
+*********************/
+
+.service-2{
+	padding: 80px 0px;
+	width: 100%;
+}
+
+.service-2 h1{
+    font-size: 40px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 85px;
+	text-align: right;
+}
+
+
+.service-2 p{
+	font-size: 26px;
+	color: #000;
+	margin: 30px 0px;
+	text-align: right;
+}
+
+.service-vdo{
+	position: relative;
+	z-index: 1;
+}
+.shadow{
+	position: absolute;
+	background: rgba(252,195,2,0.6);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.box{
+	width: 150px;
+	height: 150px;
+	background-color:#fcc302;
+	position: absolute; 
+	z-index: -1;
+	bottom: -25px;
+	left: -30px;
+}
+
+.btn-danger{
+	background-color:#fcc302 !important;
+	border: none !important;
+
+}
+.service-2 button{
+	float: right;
+}
+/************
+topic-2 part starts here
+
+*************/
+.topic-3{
+	width: 100%;
+	margin-top: 70px;
+}
+
+.topic-3 span{
+	font-size: 26px;
+	margin-right: 30px;
+}
+.topic-3 p{
+	font-size: 26px;
+}
+
+.topic-3 button{
+	border-radius: 25px;
+	padding: 6px 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00bec9;
+    border-color: #00bec9;
+}
+
+
+/*************
+another topic css starts here 
+
+***************/
+.topic2{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.topic2 h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #000;
+
+}
+
+.topic2 p{
+	font-size: 26px;
+	color: #000;
+	margin-top: 20px;
+}
+
+.info h3{
+	margin-top: 30px;
+	font-weight: 600;
+
+}
+.info p{
+	font-size: 16px !important;
+	margin-top: -5px;
+}
+
+.icon ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 10px;
+
+}
+ol, ul {
+    padding-left:0 !important;
+}
+
+.icon ul li a i {
+	color: white;
+    background-color: #daac00;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+
+}
+.icon ul li a i:hover{
+	color: blue;
+}
+
+/**************
+history section css starts here
+
+***************/
+.history{
+	width: 100%;
+	background-image: url(../img/bgdog.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.overlay{
+	position: absolute;
+	background: rgba(252,195,2,0.8);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+}
+.history .row{
+	padding: 130px 0px;
+	text-align: center;
+
+}
+.history .col-md-4 img{
+	margin-bottom: 50px;
+}
+
+.history .col-md-4 h2{
+	color: #fff;
+	font-weight: 600;
+
+}
+
+
+/***************
+another post section css starts here
+****************/
+
+
+.post{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.post h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #313243;
+
+}
+
+.post p{
+	font-size: 26px;
+	color: #313243;
+	margin-top: 20px;
+}
+
+.detail{
+	margin-top: 50px;
+
+}
+.detail .detail-1 {
+	margin-top: 30px;
+	padding: 0px 23px;
+}
+
+.detail .detail-1 h3{
+	font-size: 20px;
+	text-align: left;
+
+}
+.detail .detail-1 h5{
+	font-size: 15px;
+	text-align: left;
+	color: #00bec9;
+}
+.detail .detail-1 p{
+	font-size: 13px;
+	text-align: left;
+	margin-right: 50px;
+}
+.detail .detail-1 h4{
+	font-size: 17px;
+	text-align: left;
+	color: #00bec9;
+}
+
+/**************
+footer part css starts here
+
+**************/
+.end{
+	width: 100%;
+	background-color: #343434;
+	color: #fff;
+	padding: 80px 0px;
+}
+
+.end h2{
+	font-weight: 600;
+	margin-bottom: 20px !important;
+}
+.end h5{
+	margin-bottom: 12px !important;
+	font-weight: 400;
+
+}
+.end p{
+	font-weight: 400;
+	font-size: 1.25rem !important;
+	margin-bottom: 30px;
+
+}
+.end .col-md-6{
+	text-align: right;
+}
+.end .form-control {
+    padding: 1.375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff !important;
+    background-color: #fcc302 !important;
+    border: none !important;
+    border-radius: none;
+}
+
+.end .input-group-text {
+    padding: .375rem 3rem !important;
+    color: #fff !important;
+    background-color: #00bec9 !important;
+    border: none !important;
+    border-radius: none ;
+    cursor: pointer;
+}
+.end .input-group-text i{
+	font-size: 25px;
+}
+
+.icon2 ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 10px;
+	margin-top: 30px;
+
+}
+.icon2 ul li a i {
+	color: black !important;
+    background-color: #fff !important;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center !important;
+
+}
+.icon2 ul li a i:hover{
+	color: blue !important;
+}
